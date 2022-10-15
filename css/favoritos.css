@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    text-align: center;
+}
+
+img#logo {
+    width: 200px;
+    margin-top: -2px;
+    margin-bottom: -10px;
+}
+
+#botoes-topo {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    font-size: larger;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+#botoes-topo a {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#botoes-topo a:hover {
+    color: rgb(30, 125, 55);
+    text-decoration: none;
+}
+
+.botao {
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main h1 {
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 225, 70);
+    font-size: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    font-weight: lighter;
+}
+
+main h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main a {
+    color: black;
+}
+
+#discos-destaque {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+main li {
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.disco {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    width: 220px;
+    margin: 10px;
+    margin-bottom: 1px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.ano {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.artista {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+.valor {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.botao-comprar {
+    color: white;
+    text-decoration: none;
+}
+
+.comprar {
+    height: 40px;
+    background-color: rgb(28, 128, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: large;
+    font-weight: 1000;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: white;
+    text-decoration: none;
+}
+
+.botao-carrinho {
+    color: white;
+    text-decoration: none;
+}
+
+.carrinho {
+    height: 30px;
+    background-color: rgb(50, 75, 156);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: medium;
+    font-weight: lighter;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: white;
+    text-decoration: none;
+}
+
+header .fa-cart-shopping:hover {
+    color: rgb(30, 125, 55);
+}
+
+main .fa-cart-shopping {
+    color: white;
+    margin-right: 5px;
+}
+
+.comprar:hover {
+    background-color: rgb(0, 80, 25);
+}
+
+.carrinho:hover {
+    background-color: rgb(30, 50, 120);
+}
+
+.fa-cart-plus {
+    margin-right: 5px;
+}
+
+.favoritar {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.favoritar a {
+    color: white;
+    text-decoration: none;
+}
+
+.favoritar :hover {
+    color: rgb(255, 225, 70);
+    text-align: center;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
